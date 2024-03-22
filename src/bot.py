@@ -5,11 +5,15 @@ from src.utils.io import write_json
 from telebot import types
 
 
+def create_keyboard(*args):
+   pass
+   
+   
 markup = types.ReplyKeyboardMarkup(row_width=2, resize_keyboard=True)
 itembtn1 = types.KeyboardButton('connect')
 itembtn2 = types.KeyboardButton('settings')
 # itembtn3 = types.KeyboardButton('d')
-markup.add(itembtn1, itembtn2, itembtn3)
+markup.add(itembtn1, itembtn2)
 # tb.send_message(chat_id, "Choose one letter:", reply_markup=markup)
 
 # or add KeyboardButton one row at a time:
