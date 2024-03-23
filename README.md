@@ -1,11 +1,17 @@
 # Template for creating a telegram bot
 
 # How to run:
-First add 'src' to 'PYTHONPATH'
+1)  First set your telegram bot token as environment variable: 'TELEGRAM_BOT_TOKEN'
+'''
+export TELEGRAM_BOT_TOKEN=<your_telegram_bot_token>
+'''
+
+2) add 'src' to 'PYTHONPATH'
 '''
 export PYTHONPATH=${PWD}
 '''
-Then run: 
+3) Run: 
 '''
-ptyhon/src/bot.py
+ptyhon/src/run.py
 '''
+
